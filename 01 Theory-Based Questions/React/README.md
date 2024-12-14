@@ -243,3 +243,67 @@ JavaScript library | Yes | Yes
 Native components | No | Yes
 Performance | Very good | Excellent
 Community | Very large and active | Large and active
+
+### Q: Explain the concept of lifting state up.  
+**Answer:**  
+Lifting state up is a pattern where the state of a child component is moved to its parent component, allowing multiple child components to share the same state.
+
+### Q: What is React Router?  
+**Answer:**  
+React Router is a library that enables navigation among views in a React application, allowing for the development of single-page applications.
+
+### Q: Explain the useEffect hook.  
+**Answer:**  
+The useEffect hook in React is used for side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM.
+
+### Q: What is the purpose of the useReducer hook?  
+**Answer:**  
+The useReducer hook is used for managing complex state logic in React applications. It is an alternative to useState when state transitions are more complex.
+
+### Q: What is the difference between class components and functional components?  
+**Answer:**  
+Class components use ES6 classes and have additional features like state and lifecycle methods, while functional components are simpler and are often used with hooks.
+
+## Q: Explain the concept of refs in React.  
+**Answer:**  
+Refs are used to access the DOM directly or to reference a React element. They provide a way to interact with the underlying DOM nodes in React.
+
+### Q: What is the purpose of the `componentDidMount` lifecycle method?  
+**Answer:**  
+`componentDidMount` is invoked immediately after a component is mounted, making it suitable for initial AJAX requests or setting up subscriptions.
+
+### Q: What is the purpose of the `shouldComponentUpdate` method?  
+**Answer:**  
+`shouldComponentUpdate` is a lifecycle method that determines if a component should re-render. Developers can use it to optimize performance by preventing unnecessary renders.
+
+### Q: What is the purpose of the `forwardRef` function in React?  
+**Answer:**  
+`forwardRef` is used to forward refs through components, allowing parent components to interact with the child's DOM node.
+
+### Q: Explain the concept of error boundaries in React.  
+**Answer:**  
+Error boundaries are components that catch JavaScript errors anywhere in their child component tree and log those errors, display a fallback UI, or take other actions.
+
+### Q: What is the significance of the `memo` function in React?  
+**Answer:**  
+`memo` is a higher-order component that memoizes the rendering of a functional component, preventing unnecessary re-renders if the props have not changed.
+
+### Q: Explain the concept of suspense in React.  
+**Answer:**  
+`Suspense` is a feature in React that allows components to "wait" for something before rendering, such as data fetching or code splitting.
+
+### Q: What is the purpose of the `useLayoutEffect` hook?  
+**Answer:**  
+`useLayoutEffect` is similar to `useEffect`, but it fires synchronously after all DOM mutations. It is often used for measuring and synchronizing layout.
+
+### Q: Explain the concept of lazy loading in React.  
+**Answer:**  
+Lazy loading is a technique where components or modules are loaded only when they are actually needed, improving initial load times.
+
+### Q: What is the purpose of the `useImperativeHandle` hook?  
+**Answer:**  
+`useImperativeHandle` is used to customize the instance value that is exposed when using `React.forwardRef`.
+
+### Q: Explain the concept of the `useDebugValue` hook.  
+**Answer:**  
+`useDebugValue` is used to display a label for custom hooks in React DevTools.
