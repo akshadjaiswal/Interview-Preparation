@@ -12,6 +12,7 @@ This repository is a comprehensive resource for anyone preparing for frontend de
   A list of frequently asked theoretical questions covering essential topics like:
   - HTML, CSS, and JavaScript
   - React and its ecosystem
+  - Node js
   - Web performance optimization
   - Browser internals, HTTP, and APIs
   - Accessibility (a11y) and web standards
