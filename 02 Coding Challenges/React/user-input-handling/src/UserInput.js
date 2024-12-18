@@ -4,10 +4,12 @@ const UserInput = () => {
     const [input, setInput] = useState("")
     const [items, setItems] = useState([]);
 
+//handle input value
     const handleInput = (e) => {
         setInput(e.target.value)
     }
 
+//handle on submit 
     const handleSubmit = (e) => {
         e.preventDefault();
         if (input.trim() !== "") {
